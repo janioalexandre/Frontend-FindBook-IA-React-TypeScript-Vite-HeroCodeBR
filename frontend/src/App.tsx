@@ -1,9 +1,7 @@
+import { AppRoutes } from "./routes";
+
 function App() {
-  return (
-    <>
-      <h1 className="font-bold text-3xl">Hello World</h1>
-    </>
-  );    
+  return <AppRoutes />
 }
 
 export default App
